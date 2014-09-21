@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TimeNow</title>
+	<!-- Latest compiled and minified CSS -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	<!--Angular JS-->
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+
+	<!--Jquery-->
+	<!-- Load jQuery JS -->
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <!-- Load jQuery UI Main JS  -->
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    
+    <!-- Load SCRIPT.JS which will create datepicker for input field  -->
+    <script src="js/script.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span> TimeNow</a>
+    </div>
+
+   
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Logout</a></li>
+        <li><a href="#">Help</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div>
+	<div class="container">
+	<div>
+		<ul class="nav nav-tabs" role="tablist">
+		  <li><a href="#">New Employee</a></li>
+		  <li class="active"><a href="#">Edit Employee</a></li>
+		  
+		</ul>
+	</div>
+	   <div class="containHolder">
+	   		<div class="row">			  	  
+			  <div class="col-md-6 too-wide">
+                  <br>
+                  <h6 class="leftSelect">Select Employee:</h6>
+			  	 	<div class="leftSelect">
+
+					  	 <form>
+					  	 	<select class="form-control">
+					  	 	  <option>Employee 1</option>
+							  <option>Employee 2</option>
+							  <option>Employee 3</option>					
+							</select>
+					  	 </form>
+			  		 </div>
+                  
+                      <h4>Personal Info</h4>
+                  <form class="form-inline" role="form">
+                  <div class="form-group">
+                  <input type="text" class="form-control" placeholder="First Name">
+                  <input type="email" class="form-control" placeholder="Last Name">
+                  </div>
+
+                  <br/>
+                  </form>
+			  	 
+                  
+                  <div class="radio">
+                      Gender
+					  <label>
+					    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+					    Male
+					  </label>
+					  <label>
+					    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+					    Female
+					  </label>
+					</div>
+                  <br>
+                  <h4>Contact Info</h4>
+                  <form class="form-inline" role="form">
+                  <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email">
+                  <input type="tel" class="form-control" placeholder="Phone">
+                  </div>
+                  <br/>
+                      <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Streed Address">
+                  <input type="text" class="form-control" placeholder="City">
+                  </div>
+                  <br/>
+                      <div class="form-group">
+                  <input type="text" class="form-control" placeholder="State">
+                  <input type="text" class="form-control" placeholder="Zip Code">
+                  </div>
+                  <br/>
+                  </form>
+                  
+                  <form class="form-inline" role="form">
+                  <div class="form-group">
+                      
+                  <h4>Job Info</h4>
+                  <h6 class="leftSelect">Job Code:</h6>
+			  	 	<div class="leftSelect">
+
+					  	 <form>
+					  	 	<select class="form-control">
+					  	 	  <option>Job Code 1</option>
+							  <option>Job Code 2</option>
+							  <option>Job Code 3</option>					
+							</select>
+					  	 </form>
+			  		 </div>
+                  <input type="text" class="form-control" placeholder="Hourly Rate">
+                  </div>
+
+                  <br/>
+                  </form>
+                  
+                  <button type="button" class="btn btn-primary btn-lg btn-block">Edit Employee</button>
+			  </div>
+		</div>
+	   </div>
+        
+        
+	</div>
+</div>
+	
+</body>
+</html>

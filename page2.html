@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TimeNow</title>
+	<!-- Latest compiled and minified CSS -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	<!--Angular JS-->
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+
+	<!--Jquery-->
+	<!-- Load jQuery JS -->
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <!-- Load jQuery UI Main JS  -->
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    
+    <!-- Load SCRIPT.JS which will create datepicker for input field  -->
+    <script src="js/script.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span> TimeNow</a>
+    </div>
+
+   
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Logout</a></li>
+        <li><a href="#">Help</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div>
+	<div class="container">
+	<div>
+		<ul class="nav nav-tabs" role="tablist">
+		  <li class="active"><a href="#">Time Log</a></li>
+		  <li><a href="#">Payroll</a></li>
+		  
+		</ul>
+	</div>
+	   <div class="containHolder">
+	   		<div class="row">			  	  
+			  <div class="col-md-8">
+			  	 <div class="inner-menu">
+			  	 	<ul class="nav nav-pills">
+					  <li class="active"><a href="#">Today</a></li>
+					  <li><a href="#">TimeSheet</a></li>
+					  <li><a href="#">Schedule</a></li>
+					  <li><a href="#">Absence Request</a></li>
+					</ul>
+			  	 </div>
+			  	 <div class="second-inner-menu">
+			  	 	<h6 class="leftSelect">Sort by:</h6>
+			  	 	<div class="leftSelect">
+
+					  	 <form>
+					  	 	<select class="form-control">
+					  	 	  <option>Employee Name</option>
+							  <option>Mr.Linkon</option>
+							  <option>Mrs.Simi</option>
+							  <option>Jerry</option>					
+							</select>
+					  	 </form>			  	 	
+			  		 </div>
+			  		 <div class="rightSelect">
+					  	 <form>
+					  	 	<select class="form-control">
+					  	 	  <option>Select Items</option>
+							  <option>50 Items</option>
+							  <option>100 Items</option>							 					
+							</select>
+					  	 </form>			  	 	
+			  		 </div>
+			  	 </div>
+			  	 <div class="inner-table">
+			  	 	
+					<table class="table table-striped">
+					  <tr>
+					    <th>Name (job title)</th>
+					    <th>Log In</th>		
+					    <th>Log Out</th>
+					    <th>Login Location</th>
+					    <th>Rate</th>		
+					    <th>Total Hours</th>
+					    <th>Cost</th>
+					  </tr>
+					  <tr>
+					    <td>Jill</td>
+					    <td>Smith</td>		
+					    <td>50</td>
+					    <td>Jill</td>
+					    <td>Smith</td>		
+					    <td>50</td>
+					    <td>50</td>
+					  </tr>
+					  <tr>
+					    <td>Eve</td>
+					    <td>Jackson</td>		
+					    <td>94</td>
+					    <td>Eve</td>
+					    <td>Jackson</td>		
+					    <td>94</td>
+					    <td>50</td>
+					  </tr>
+					  <tr>
+					    <td>John</td>
+					    <td>Doe</td>		
+					    <td>80</td>
+					    <td>Eve</td>
+					    <td>Jackson</td>		
+					    <td>94</td>
+					    <td>50</td>
+					  </tr>
+					  <tr>
+					    <td>John</td>
+					    <td>Doe</td>		
+					    <td>80</td>
+					    <td>Eve</td>
+					    <td>Jackson</td>		
+					    <td>94</td>
+					    <td>50</td>
+					  </tr>
+					  <tr>
+					    <td>John</td>
+					    <td>Doe</td>		
+					    <td>80</td>
+					    <td>Eve</td>
+					    <td>Jackson</td>		
+					    <td>94</td>
+					    <td>50</td>
+					  </tr>
+					</table>
+
+			  	 </div>
+			  </div>
+			  <div class="col-md-3">
+			  	 <div>
+			  	 	<h3>Select Dates</h3>
+			  	 	<small>[below to view timesheets for multiple days]</small>
+			  	 </div>
+			  	 <div>
+			  	 	<p><span class="glyphicon glyphicon-calendar"></span> Start:<input type="text" id="datepicker" /></p>
+			  	 </div>
+			  	 <div>
+			  	 	<p><span class="glyphicon glyphicon-calendar"></span> End:<input type="text" id="datepicker2" /></p>
+			  	 </div>
+			  </div>
+		</div>
+	   	
+	   </div>
+	</div>
+</div>
+	
+</body>
+</html>
